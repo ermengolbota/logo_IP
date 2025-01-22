@@ -21,9 +21,13 @@
 <body>
     <br>
     <canvas id="myCanvas" width="300" height="300" style="border:1px solid #000000;" onmousemove="pintarRatoli(event)"
-        onmouseleave="pintar()"></canvas>
+        onmouseleave="sortida(event)"></canvas>
     <br>
-    <input type="checkbox" id="pintar"><label for="pintar">Vols pintar?</label>
+    <label for="idPintar">Vols pintar?</label>
+    <input type="checkbox" id="idPintar">
+    <br>
+    <label for="idColor">Amb quin color?</label>
+    <input type="color" id="idColor" value="#0000ff">
     <script src="pintar.js"></script>
 </body>
 
